@@ -163,7 +163,7 @@ select{
         width: 500px;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 10px;
       }
       
 ul  {
