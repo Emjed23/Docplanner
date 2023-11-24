@@ -84,9 +84,10 @@ p {
    
 h1 {
     display:flex;
-    color: black;
+    color: white;
     margin-bottom: 74px;
     font-size: 30px;
+    font-family:monospace;
 }
 h2 {
     color: #00bcd4;
@@ -176,7 +177,7 @@ ul  {
     background-color: #f7f3f3;
 }
 .stat{
-    background-color: #009688;
+    background-color:#b8e3df;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -191,6 +192,7 @@ h1 .world{
     width: 100%;
     text-align: center;
     margin-bottom: 67px;
+    
 }
 .statut{
     color: #4df1e2;
@@ -245,7 +247,9 @@ div{
 }
 h4{
     color: #4df1e2;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-family: monospace;
 }
 
 
@@ -289,6 +293,7 @@ h6 {
     margin-bottom: 47px;
     color: #060606;
     font-weight: lighter;
+    font-family:monospace;
 }
 button {
     border: none;
@@ -318,6 +323,7 @@ footer{
     margin-top: 25px;
     color: #575656;
     font-size: 15px;
+    margin-bottom: 25px;
    
 }
 
@@ -337,9 +343,4 @@ footer .a1{
   
     color: #337ab7;
     text-decoration: none;
-}
-.parag{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
 }
