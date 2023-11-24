@@ -14,21 +14,18 @@ header {
     display: flex;
     align-items: center;
     gap: 26px;
+    font-size: medium;
 
 }
 .about{
     color:#00b39b
 }
-.br {
-    text-decoration: none;}
-br{    position: relative;
-    /* float: right; */
-    color: #4a4c4c;
-    /* font-style: normal; */
-    /* text-decoration: none; */
-    display: flex;
-    margin: 15px 0;
-
+.br{
+    text-decoration: none;
+}
+.navbar {  
+      margin-left: 50px;
+      margin-right: 50px;
 }
 .brands_logo {
 
@@ -55,7 +52,7 @@ br{    position: relative;
     margin-bottom: 15px;
 }
 p {
-   box-sizing: border-box;
+   font-size:20px;
    
     font-style: oblique;
     font-style: italic;
@@ -85,15 +82,21 @@ p {
   
 }
    
+h1 {
+    display:flex;
+    color: black;
+    margin-bottom: 74px;
+    font-size: 30px;
+}
 h2 {
-    line-height: 1.2;
-    margin: 0;
-    color: #625454;
-    margin-top: -57px;
+    color: #00bcd4;
+    margin-top: 11px;
 }
 h2 .worldpara{
     margin-top: 29px;
     font-size: 12px;
+    color:#18d9c9;
+    font-size: 20px;
 }
 
 .despatient , .desdoc , .desclin{
@@ -128,13 +131,17 @@ margin-block-end: 0.17em;
     background-color:#9e9e9e91;
     border-radius:  16px;
 }
- .spon {
+select{
+    margin-left:30px;
+    margin-top: 20px;
+}
+.spon {
   
     color: #18d9c9;
     font-weight: lighter;
     margin-left: 30px;
 }
- .sponsors{
+.sponsors{
 
     font-style: oblique;
     display: flex;
@@ -193,10 +200,16 @@ h1 .world{
 .lead{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    width: 470px;
-    margin: 10px 10px;
+    gap: 40px;
+    width: 509px;
+    margin: 20px 18px;
 }
+img{
+
+    padding: 52px;
+
+}
+
 
 .colonne {
     border:#f7f3f3;
@@ -205,20 +218,22 @@ h1 .world{
     flex-wrap: wrap;
     gap: 10px;
 }
-
+.lead .h2{
+    color:#00b39b
+}
 .box1 , .box2 ,.box3 , .box4{
-    display:flex;
-     background-color: white;
-    border-radius: 16px;
-    width: 200px;
+    display: flex;
+    width: 146px;
     flex-direction: column;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
-    height: 250px;
+    background: rgb(255, 255, 255);
+    height: 282px;
     text-align: center;
     padding: 15px;
-    font-size: .8125em;
+    font-size: 0.8125em;
+
+}
+div{
+    font-size: small;
 }
 .improve{
     justify-content: center;
@@ -242,27 +257,31 @@ h5 {
 
 }
 section .paye{
+    display:flex;
     background: none;
 }
 
-.lead img{
-    margin:75px;
-}
-
- 
-.image{
-    
-    display: flex;
-    justify-content: center;
-    border-radius:20px;
+.image {
+   
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 40px;
     margin-top: 50px;
     margin-bottom: 50px;
-    width:100%
-    
+    padding: 6px;
+    justify-content: center;
 }
+    
+
+div .img1 {
+    padding:12px;
+}
+div .seeopening{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 h6 {
     font-size: 20px;
     text-align: center;
