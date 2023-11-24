@@ -271,6 +271,12 @@ h6 {
     color: #060606;
     font-weight: lighter;
 }
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    background-color: #3b5cab;
+}
 .seeall{
     text-decoration: none;
     margin-left: 600px;
@@ -279,32 +285,42 @@ h6 {
     border-radius: 5px;
 
 }
-.footer{
-    margin-top: 25px;
-    color: #575656;
-    font-size: 15px;
-    margin-left: 100px;
-}
-
-
 footer{
     margin-top: 25px;
     color: #575656;
     font-size: 15px;
-    margin-left: 160px;
+   margin-left:200px;
     margin-top: 113px;
-    margin-bottom: 30px;
+    margin-bottom: 30p;
+    text-align: center;
+}
+   
+.footer{
+    margin-top: 25px;
+    color: #575656;
+    font-size: 15px;
+   
 }
 
-.a1{
-    position: relative;
-    /* float: right; */
-    color: #4a4c4c;
-    /* font-style: normal; */
-    /* text-decoration: none; */
-    /* display: flex; */
-    margin: 15px 0;
-    color:#2e4f9c;
+
+.bt {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #3b5cab;
+    margin-left:550px;
+}
+footer .a1{
   
+    color: #337ab7;
+    text-decoration: none;
+}
+.parag{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
