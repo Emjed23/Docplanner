@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+  
+} 
+.logo {
+    width: 300px;
+    height: 58px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+
+}
+.about{
+    color:#00b39b
+}
+.br {
+    text-decoration: none;}
+br{    position: relative;
+    /* float: right; */
+    color: #4a4c4c;
+    /* font-style: normal; */
+    /* text-decoration: none; */
+    display: flex;
+    margin: 15px 0;
+
+}
+.brands_logo {
+
+    display: flex;
+}
+.p1 {
+    justify-content: center;
+}
+
+
+.title{
+
+    justify-content: center;
+    font-style: italic;
+    color: #2e9c93;
+    font-weight: bolder;
+    font-size: 2.12rem;
+    text-align: center;
+}
+.pttlogo{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+p {
+   box-sizing: border-box;
+   
+    font-style: oblique;
+    font-style: italic;
+   word-spacing: 1%;
+   color:gray;
+}
+.desc {
+    display: flex;
+    margin: 100px 10px;
+    line-height: 1.75;
+    box-sizing: inherit;
+    gap:50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.options {  
+  
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    color: #fff;
+    height: 388px;
+    gap:80px;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+}
+   
+h2 {
+    line-height: 1.2;
+    margin: 0;
+    color: #625454;
+    margin-top: -57px;
+}
+h2 .worldpara{
+    margin-top: 29px;
+    font-size: 12px;
+}
+
+.despatient , .desdoc , .desclin{
+  
+    display: flex;
+    font-size: 14px;
+    margin-block-start: 3.83em;
+    margin-block-end: 6.83em;
+    font-size: 19px;
+    font-family: system-ui;
+}
+
+.forpatient , .fordoc , .forclin{
+    justify-content: center;
+font-style: italic;
+font-weight: bolder;
+font-size: 17px;
+margin-block-start: 1.83em;
+margin-block-end: 0.17em;
+}
+
+.patient {
+    background-color: #2e9c93;
+    border-radius:  16px;
+}
+
+.doctors {
+    background-color: #2e4f9c;
+    border-radius: 16px;
+}
+.clinics {
+    background-color:#9e9e9e91;
+    border-radius:  16px;
+}
+ .spon {
+  
+    color: #18d9c9;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+ .sponsors{
+
+    font-style: oblique;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap:30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.brands_logo {
+    
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+       
+        width: 500px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+      }
+      
+ul  {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.workd{
+    background-color: #f7f3f3;
+}
+.stat{
+    background-color: #009688;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 65px;
+    margin-top: 65px;
+    gap: 273px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h1 .world{
+    color: #4df1e2;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 67px;
+}
+.statut{
+    color: #4df1e2;
+    width: 100%;
+    text-align: center;
+}
+.lead{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 470px;
+    margin: 10px 10px;
+}
+
+.colonne {
+    border:#f7f3f3;
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box1 , .box2 ,.box3 , .box4{
+    display:flex;
+     background-color: white;
+    border-radius: 16px;
+    width: 200px;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+}
+.improve{
+    justify-content: center;
+    font-style: italic;
+    font-size: 1.12rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #4df1e2;
+    margin-bottom: 20px;
+}
+
+
+h5 {
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: rgb(90 86 86);
+    margin: 25px 240px;
+
+}
+section .paye{
+    background: none;
+}
+
+.lead img{
+    margin:75px;
+}
+
+ 
+.image{
+    
+    display: flex;
+    justify-content: center;
+    border-radius:20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:100%
+    
+}
+h6 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 47px;
+    color: #060606;
+    font-weight: lighter;
+}
+.seeall{
+    text-decoration: none;
+    margin-left: 600px;
+    padding: 12px 25px;
+    border: solid;
+    border-radius: 5px;
+
+}
+.footer{
+    margin-top: 25px;
+    color: #575656;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+
+footer{
+    margin-top: 25px;
+    color: #575656;
+    font-size: 15px;
+    margin-left: 160px;
+    margin-top: 113px;
+    margin-bottom: 30px;
+}
+
+.a1{
+    position: relative;
+    /* float: right; */
+    color: #4a4c4c;
+    /* font-style: normal; */
+    /* text-decoration: none; */
+    /* display: flex; */
+    margin: 15px 0;
+    color:#2e4f9c;
+    text-decoration: none;
+  
+}
